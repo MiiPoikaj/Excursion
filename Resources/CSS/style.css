@@ -12,6 +12,32 @@
     margin-right: auto;
   }
   
+  @media only screen and (max-width: 767px) {
+    .container {
+      grid-template-columns: 100%;
+      grid-template-rows: 150px auto 340px;
+    }
+    
+    .title {
+      font-size: 30px;
+    }
+    
+    .verdana_weighted {
+      font-size: 22px;
+    }
+    
+    p.gray {
+      font-size: 16px;
+    }
+    
+    p.aligright {
+      font-size: 16px;
+    }
+    
+    .download {
+      font-size: 12px;
+    }
+  }
   .header {
     grid-area: header;
     background-color: black;
