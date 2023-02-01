@@ -3,7 +3,7 @@
     display: grid;
     width: 100%;
     grid-template-columns: 100%;
-    grid-template-rows: 130px 1050px 300px;
+    grid-template-rows: 150px 1350px 340px;
     grid-template-areas:
       "header"
       "main"
@@ -32,3 +32,37 @@
     color: white;
   }
   
+.title {
+  font-size: 50px;
+  font-family: Verdana;
+  font-weight: normal;
+  color: white;
+}
+
+.download {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+.verdana_weighted {
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42px;
+}
+
+p.gray {
+  color: gray;
+  font-size: 21px;
+}
+
+p.aligright {
+  color: grey;
+  text-align: right;
+  padding-right: 20px;
+  font-size: 21px;
+}
+
+.download:visited, :active {
+  color: aquamarine;
+}
+
