@@ -1,2 +1,2 @@
 # Excursion
-Practice project for creating a mockup page for promoting a "Excursion app" and using Git.
+Practice project from Codecademy's "Learn Git & GitHub" program. The aim was to create a mockup promotion page for an app called "Excursion". Page is compiled from basic HTML and CSS elements.
